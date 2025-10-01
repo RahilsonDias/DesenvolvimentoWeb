@@ -17,14 +17,15 @@ p{
 .main{
     display: flex;
     flex-direction: column;
+    justify-content: center;
     background-color: #fffeb0;
 
 }
 .form, .lista, .select{
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: center;
+    align-items: center;
     margin-bottom: 20px;
 }
 .container{
@@ -49,9 +50,10 @@ header{
 }
 footer{
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     background-color: #f19997;
     text-align: center;
-    padding: 12px;
+    padding: 10px;
 }
